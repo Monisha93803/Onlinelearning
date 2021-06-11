@@ -1,0 +1,155 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image:url('0.jpeg');  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background-color:#89CFF0 ;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+      
+}
+
+button{
+padding: 14px 120px;
+background:#4682B4;
+}
+.fa {
+  padding:15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.icons{
+  list-style: none;
+  width:100%;
+  height:80%;
+}
+.icons li{
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  margin: 20px 10px 10px 0px;
+  cursor: pointer;
+  position: relative;
+}
+.icons li:before{
+  content: '';
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  height: 80%;
+  width: 100%;
+}
+ </style> 
+</head>    
+<body>    
+    <h1 style="color:white";><div style="text-align:center";>Login Page</div></h1><br>    
+    <div class="login">    
+    <form id="login" method="get" action="file:///C:/Users/Monisha/Desktop/web/home1.html?" style="align:center;">    
+        <label style="color:black;"><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label style="color:black;"><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br> 
+<button onclick="file:///C:/Users/Monisha/Desktop/web/home1.html?">Log In Here</button>   
+         
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>
+    
+        <br><br><a href="file:///C:/Users/Monisha/Desktop/web/reset.html">    
+        Forgot Password</a> 
+<h3 style="text-align:center;"><br>OR<br>login with<br></h3>
+<div><ul class="icons">
+<li><a href="https://myaccount.google.com/" class="fa fa-google"></a></li>
+<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+<li><a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a></li>
+</ul>
+</div>
+    </form> 
+    
+</div> 
+
+
+    <script>alert("Please login...")</script>
+</body>    
+</html> 
